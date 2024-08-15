@@ -4,6 +4,7 @@ export default function Productos() {
     const [producto, setProducto] = useState("");
     const [productos, setProductos] = useState(["a", "b"])
 
+    
   return (
     <div>
         <label>Ingrese un producto</label>
